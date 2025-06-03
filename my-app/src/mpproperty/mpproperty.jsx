@@ -47,12 +47,13 @@ const properties = [
 
 const PopularProperties = () => {
   return (
-        <div className="container">
-      <div className="popular-properties">
-        <div className="header">
+        <div className="card-container">
+          <div className="header">
           <h2>Most Popular Property</h2>
-          <a href="#" className="see-all">See all →</a>
+          <button className="see-all-button">See all →</button>
         </div>
+      <div className="popular-properties">
+        
         <div className="property-list">
           {properties.map((property) => (
             <div className="property-card" key={property.id}>

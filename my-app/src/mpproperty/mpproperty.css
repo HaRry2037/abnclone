@@ -1,44 +1,78 @@
 .popular-properties {
   background-color: #ffffff;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
 }
 
+.card-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 2rem;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+}
 
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+  flex-wrap: wrap; 
+} */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
-  border-bottom: 2px solid #000;
-  padding-bottom: 0.5rem;
-  flex-wrap: wrap; /* So it doesn’t overflow on small screens */
+  margin-bottom: 1.5rem;
+  color: black;
+  flex-wrap: wrap; 
 }
 
+.header h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid black;
+}
+
+.see-all-button {
+  font-size: 0.875rem;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* 
 .header h2 {
   font-size: 2rem;
   font-weight: bold;
   color: black;
   margin: 0;
-}
-
+} */
+/* 
 .see-all {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   font-size: 1rem;
   transition: color 0.2s ease;
-}
+} */
 
-.see-all:hover {
+/* .see-all:hover {
   color: #000;
-}
+} */
 
 .property-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
+  overflow: hidden;
 }
 
 .property-card {

@@ -3,12 +3,12 @@ body{
   padding: 0;
 box-sizing: border-box;
 background-color: white;
-width: 1000px;
+width: 100%;
 }
 
 
 .container{
-  width: 1440px;
+  width: 100%;
   margin: 0;
   padding: 0 ;
   box-sizing: border-box;

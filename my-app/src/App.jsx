@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/header/header.jsx'
 import HeroSection from './components/bedbanner/bedbanner.jsx'
@@ -10,7 +7,6 @@ import PropertyAndStays from './typropnevents/typropnevents.jsx'
 function App() {
   return (
     <>
-    
       <Header />
       <HeroSection />
       <TopDestinations />
