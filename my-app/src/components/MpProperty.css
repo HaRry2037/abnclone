@@ -1,0 +1,181 @@
+.mp-property {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.mp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.mp-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.mp-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #222;
+}
+
+.see-all {
+  color: #717171;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.see-all:hover {
+  color: #222;
+}
+
+.property-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.property-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+}
+
+.image-wrapper {
+  position: relative;
+  padding-top: 66.67%; /* 3:2 aspect ratio */
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sponsor-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.like-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button svg {
+  width: 24px;
+  height: 24px;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.image-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dot.active {
+  background: white;
+}
+
+.property-details {
+  padding: 1rem;
+}
+
+.location-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.location-row h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #222;
+  font-size: 14px;
+}
+
+.star {
+  color: #FFB800;
+}
+
+.property-title {
+  color: #717171;
+  font-size: 14px;
+  margin: 0 0 0.5rem 0;
+}
+
+.price {
+  margin: 0;
+  font-size: 14px;
+  color: #222;
+}
+
+.amount {
+  font-weight: 600;
+}
+
+.duration {
+  margin-left: 4px;
+  color: #717171;
+} 
