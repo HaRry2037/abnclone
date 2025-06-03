@@ -75,7 +75,7 @@ background-color: white;
 
 
 .container{
-  width: 1440px;
+  width: 100%;
   margin: 0;
   padding: 0 ;
   box-sizing: border-box;

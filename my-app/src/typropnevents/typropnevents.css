@@ -1,10 +1,10 @@
 .section-container {
-  width: 1440px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
-  margin-left: 24%;
+  box-sizing: border-box;
 }
-
 .section {
   margin-bottom: 3rem;
 }
@@ -30,7 +30,7 @@
 
 /* Property card */
 .card {
-  width: 240px;
+  width: 250px;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -66,12 +66,38 @@
   flex-wrap: wrap;
 }
 
-.stay-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.stay-card-row {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+}
 
+.stay-card-row::-webkit-scrollbar {
+  display: none; 
+}
+
+.see-all-button {
+  font-size: 0.875rem;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.stay-content p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .overlay {
@@ -109,4 +135,16 @@
 .stay-content p {
   margin: 4px 0 0;
   font-size: 0.8rem;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .card, .stay-card {
+    width: 100%;
+    max-width: 90%;
+  }
 }
