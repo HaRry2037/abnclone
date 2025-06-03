@@ -21,7 +21,7 @@ box-sizing: border-box;
   flex-wrap: wrap; 
 } */
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +31,19 @@ box-sizing: border-box;
 }
 
 .header h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid black;
+} */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.section-header h2 {
   font-size: 1.75rem;
   border-bottom: 2px solid black;
 }
@@ -46,6 +59,20 @@ box-sizing: border-box;
   align-items: center;
   gap: 0.25rem;
 }
+
+
+
+/* .see-all-button {
+  font-size: 0.875rem;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+} */
 
 /* 
 .header h2 {

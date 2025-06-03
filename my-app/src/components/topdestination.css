@@ -1,3 +1,10 @@
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
 
 .top-destinations {
   padding: 3rem 2rem;
@@ -16,17 +23,18 @@
   font-size: 2rem;
   font-weight: 600;
   position: relative;
+  border-bottom: 2px solid;
   color: #111;
 }
 
-.top-header h2::after {
+/* .top-header h2::after {
   content: '';
   display: block;
   width: 60px;
   height: 2px;
   background-color: #111;
   margin-top: 0.5rem;
-}
+} */
 
 .see-all {
   text-decoration: none;

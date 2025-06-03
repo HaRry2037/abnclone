@@ -73,7 +73,7 @@ const PropertyAndStays = () => {
               <div className="overlay">
                 <span className="tag">{item.tag}</span>
                 <div className="stay-content">
-                  <h3>{item.name}</h3>
+                  <h3>{item.name}</h3> 
                   <hr/>
                   <p>{item.desc}</p>
                 </div>
