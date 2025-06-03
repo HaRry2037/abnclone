@@ -15,7 +15,7 @@ const destinations = [
 
 const TopDestinations = () => {
   return (
-    <div className="container">
+    <div className="section-container">
     <section className="top-destinations">
       <div className="top-header">
         <h2>Top Destinations</h2>
