@@ -1,0 +1,49 @@
+.offer-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+
+.offer-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.offer-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.offer-text h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.offer-text p {
+  margin: 2px 0 0;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.subscribe-button {
+  padding: 8px 20px;
+  border: 1px solid #333;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #f2f2f2;
+}

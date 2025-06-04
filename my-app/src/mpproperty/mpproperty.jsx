@@ -49,7 +49,7 @@ const PopularProperties = () => {
   return (
         <div className="card-container">
           <div className="section-header">
-          <h2>Types of Stays</h2>
+          <h2>Most Popular Property</h2>
           <button className="see-all-button">See all →</button>
         </div>
       <div className="popular-properties">

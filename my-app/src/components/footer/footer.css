@@ -1,0 +1,48 @@
+.footer {
+  background-color: #566f63;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-left {
+  max-width: 500px;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  margin: 8px 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,95 @@
+.offers-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.offers-title {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #111;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.offer-carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.offer-slide {
+  position: relative;
+}
+
+.offer-image {
+  width: 100%;
+  height: 340px; /* Fixed height to enable cropping */
+  object-fit: cover; /* Ensures image is cropped, not stretched */
+  object-position: center 20%; /* Focus on top portion of the image */
+  border-radius: 12px;
+  display: block;
+}
+
+.offer-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.7);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+}
+
+.offer-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.offer-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.offer-button {
+  background-color: white;
+  color: #111;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.offer-button:hover {
+  background-color: #f0f0f0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
